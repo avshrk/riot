@@ -1,6 +1,6 @@
 defmodule Riot.Request do
   @moduledoc """
-  Reuest Context
+  Request Context
   """
 
   @api_key Application.compile_env(:riot, :riot_api_key)
