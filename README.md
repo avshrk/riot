@@ -2,7 +2,7 @@
 
 ## Usage
 
-To track summoner and coplayers:
+To track a summoner and his/her coplayers:
 ```elixir
 summoner_name |> Riot.track_summoners(region)
 ```
@@ -11,5 +11,5 @@ summoner_name |> Riot.track_summoners(region)
 * Application tracks both the given summoner and the coplayers.
 
 ## Todo
-* Test Coverage for error cases.
+* Test coverage for error cases.
 
