@@ -2,7 +2,7 @@ use Mix.Config
 
 config :riot,
   mix_env: Mix.env(),
-  riot_api_key: "RGAPI-1cf1b953-abf9-4457-8d65-be9724a56ff3",
+  riot_api_key: System.get_env("RIOT_API_KEY"),
   riot_api_subdomain: "api.riotgames.com",
   regions: %{
     "na" => "americas",
